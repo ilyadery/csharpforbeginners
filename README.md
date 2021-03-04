@@ -1,1 +1,3 @@
 # csharpforbeginners
+
+Курс Роман Труфанов
