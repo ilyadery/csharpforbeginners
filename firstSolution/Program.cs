@@ -103,50 +103,29 @@ namespace firstSolution
         static void massiveMethod()
         {
 
-            //string[] names = new string[6];
-            //names[0] = "Ivan";
-            //names[1] = "Maks";
-            //names[2] = "Anton";
-            //names[3] = "Alex";
-            //names[4] = "Roma";
-            //Console.Write("Enter your name: ");
-            //names[5] = Console.ReadLine();
-            //for (int i = 0; i < names.Length; i++)
-            //{
-            //    Console.WriteLine(names[i]);
-            //}
+            string[] names = new string[6];
+            names[0] = "Ivan";
+            names[1] = "Maks";
+            names[2] = "Anton";
+            names[3] = "Alex";
+            names[4] = "Roma";
+            Console.Write("Enter your name: ");
+            names[5] = Console.ReadLine();
+            for (int i = 0; i < names.Length; i++)
+            {
+                Console.WriteLine(names[i]);
+            }
 
-            //int[] numbers = new int[10];
-            //Random random = new Random();
-            //for (int i = 0; i < numbers.Length; i++)
-            //{
-            //    numbers[i] = random.Next();
-            //}
-            //for (int i = 0; i < numbers.Length; i++)
-            //{
-            //    Console.WriteLine(numbers[i]);
-            //}
-
-            //string[] names = new string[5];
-            //Console.Write("Enter first name: ");
-            //names[0] = Console.ReadLine();
-            //Console.Write("Enter second name: ");
-            //names[1] = Console.ReadLine();
-            //Console.Write("Enter third name: ");
-            //names[2] = Console.ReadLine();
-            //Console.Write("Enter fourth name: ");
-            //names[3] = Console.ReadLine();
-            //Console.Write("Enter fifth name: ");
-            //names[4] = Console.ReadLine();
-
-            //Console.Write("You wrote ");
-            //for (int i = 0; i < names.Length; i++)
-            //{
-            //    Console.Write(names[i] + ", ");
-            //}
-
-
-
+            int[] numbers = new int[10];
+            Random random = new Random();
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] = random.Next();
+            }
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Console.WriteLine(numbers[i]);
+            }
         }
         static void Calculator()
         {
@@ -246,7 +225,7 @@ namespace firstSolution
 
             //Calculator();
 
-            Notebook();
+            //Notebook();
         }
     }
 }
